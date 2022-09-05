@@ -12,9 +12,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Add todo routes to app
-/*
 app.use('/api/todos', require('./routes/todoRoutes'));
-*/
+
 // Add user routes to app
 app.use('/api/users', require('./routes/userRoutes'));
 
